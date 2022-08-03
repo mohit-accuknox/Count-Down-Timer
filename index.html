@@ -2,30 +2,63 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Launch countdown timer</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+  <script defer src="script.js"></script>
+  <title>CountDown Timer</title>
 </head>
 <body>
+  <section class="container">
+    <h1 class="heading">
+      We're Launching Soon
+    </h1>
+    <div class="count_down">
+      <div class="box">
+        <div class="date_box">
+          <p class="day before">
+            08
+          </p>
+        </div>
+        <p class="days">
+          Days
+        </p>
+      </div>
+      <div class="box">
+        <div class="date_box">
+          <p class="hour before">
+            23
+          </p>
+        </div>
+        <p class="days">
+          Hours
+        </p>
+      </div>
+      <div class="box">
+        <div class="date_box">
+          <p class="minute before">
+            55
+          </p>
+        </div>
+        <p class="days">
+          Minutes
+        </p>
+      </div>
+      <div class="box">
+        <div class="date_box">
+          <p class="second before">
+            41
+          </p>
+        </div>
+        <p class="days">
+          Seconds
+        </p>
+      </div>
+    </div>
 
-  We're launching soon
-
-  Days
-  Hours
-  Minutes
-  Seconds
+    <img src="images/pattern-hills.svg" class="mountain" alt="">
+  </section>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
 </html>
